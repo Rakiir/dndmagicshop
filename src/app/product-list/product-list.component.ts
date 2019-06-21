@@ -214,6 +214,9 @@ window.alert("Random: " + levelOddsRandom);
       "I have the finest goods anywhere!  Can I interest you in a stamina potion maybe?  Very popular with the young men.",
       "Khajiit has wares, if you have coin.",
       "I would just like to remind everyone, once again, that Restoration is indeed a valid school of magic. It is absolutely worthy of research, despite many of the notes I've had left in my bed. And my desk. And on occasion, my meals. Anyone suggesting that Restoration is better left to the priests of the Temples, I think, is forgetting a few things. I truly hope that more care and thought is given to this subject in the future.  Thank you.",
+      "You lot better not be thinking of theiving from me!",
+      "You try an take anythin' without payin' and I'll have the town guard in 'ere faster than a gnome's uncle!",
+      "Welcome!  Feel free to browse my mystic items!  But try stealing from me and you'll end up just as dead as the last bugger who tried!",
     ];
     var random = Math.floor(Math.random() * shopPhrase.length);
     var outputPhrase = shopPhrase[random];
@@ -221,42 +224,4 @@ window.alert("Random: " + levelOddsRandom);
     return (outputPhrase);
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  onNotify() {
-    window.alert("You will be notified when I decide you will be notified.  Good day sir!");
-  }
-
 }
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
