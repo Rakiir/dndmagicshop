@@ -1,10 +1,9 @@
 # dndmagicshop
 
 _A Web App written using Angular._
-
 **This DM tool is for the D&D 5e.**  
-**Generates 10 random magic items with one of _361 different spells_ to be sold in a shop to your players.**  
-**Clicking on the name of a magic item will link you to the spell's official page on DnDBeyond.com!**  
+Generates 10 random magic items with one of _**361 different spells**_ to be sold in a shop to your players.  
+Clicking on the name of a magic item will **link you to the spell's official page on DnDBeyond.com!**  
   
 **FUNCTIONALITY:**  
 + You can specify the level of the spell on the items using the drop-down menu at the top of the screen.  
