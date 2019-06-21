@@ -1,11 +1,13 @@
+<div class="set-size"><h5 style="color:rgb(24, 0, 186)"> {{ welcomeMessage }}</h5></div>
+
+<h1><b><font style="color:rgb(24, 0, 186)">&nbsp;Magic Shop</font></b></h1>
+
 <a href="{{shopOwnerStatBlock}}" target="_blank" class="button fancy-button" (click)="randomStatBlock()"><i class="material-icons iconOpenStore">error</i>
   <font style="color:rgb(24, 0, 186)">Roll Initiative</font>
 </a>
 
-<!-- <button class="button fancy-button" (click)="randomStatBlock()"><i class="material-icons iconOpenStore">store</i><font style="color:rgb(24, 0, 186)">Roll Initiative</font></button> -->
-
 <div>
-<h2><b><font style="color:rgb(24, 0, 186)">&nbsp;Choose Spell Level</font></b></h2>
+  <h2><b><font style="color:rgb(24, 0, 186)">&nbsp;Choose Spell Level</font></b></h2>
   <font style="color:rgb(24, 0, 186)">&nbsp;&nbsp;MIN:  </font>
   <select name="minVal" type="number" id="minimum">
     <option minVal="0" selected>0</option>
@@ -31,7 +33,6 @@
     <option maxVal="8">8</option>
     <option maxVal="9" selected>9</option>   
   </select>
-  
-  </div>
+</div>
 
-  <button class="button fancy-button" (click)="initiateOpenStore()"><i class="material-icons iconOpenStore">store</i><font style="color:rgb(24, 0, 186)">Open Store</font></button>
+<button class="button fancy-button" (click)="initiateOpenStore()"><i class="material-icons iconOpenStore">store</i><font style="color:rgb(24, 0, 186)">Open Store</font></button>
