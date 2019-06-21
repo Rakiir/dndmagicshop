@@ -1,0 +1,45 @@
+
+<a [routerLink]="['/']">
+  <h1 style="color:rgb(24, 0, 186)">Magic Shop</h1>
+</a>
+
+<div>
+<h2><b><font style="color:rgb(24, 0, 186)">&nbsp;Choose Spell Level</font></b></h2>
+  <font style="color:rgb(24, 0, 186)">&nbsp;&nbsp;MIN:  </font>
+  <select name="minVal" type="number" id="minimum">
+    <option minVal="0" selected>0</option>
+    <option minVal="1">1</option>
+    <option minVal="2">2</option>
+    <option minVal="3">3</option>
+    <option minVal="4">4</option>
+    <option minVal="5">5</option>
+    <option minVal="6">6</option>
+    <option minVal="7">7</option>
+    <option minVal="8">8</option>
+  </select>
+
+  <font style="color:rgb(24, 0, 186)">&nbsp;&nbsp;MAX:  </font>
+  <select name="maxVal" type="number" id="maximum">
+    <option maxVal="1">1</option>
+    <option maxVal="2">2</option>
+    <option maxVal="3">3</option>
+    <option maxVal="4">4</option>
+    <option maxVal="5">5</option>
+    <option maxVal="6">6</option>
+    <option maxVal="7">7</option>
+    <option maxVal="8">8</option>
+    <option maxVal="9" selected>9</option>   
+  </select>
+  
+  </div>
+
+  <button class="button fancy-button" (click)="initiateOpenStore()"><i class="material-icons iconOpenStore">store</i><font style="color:rgb(24, 0, 186)">Open Store</font></button>
+  
+
+<!--<a [routerLink]="['/cart']" class="button fancy-button"><i class="material-icons">add_circle</i>Shuffle Items</a>-->
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

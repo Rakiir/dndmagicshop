@@ -1,0 +1,35 @@
+app-top-bar {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-image: url("https://aslanroars.org/wp-content/uploads/2015/05/Parchment-Texture-slider-size.jpg");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+text-bar {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-image: url("https://aslanroars.org/wp-content/uploads/2015/05/Parchment-Texture-slider-size.jpg");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+html, div {
+  background-image: url("https://i.pinimg.com/originals/05/53/f2/0553f20e27fe47a8027e5f12c2b93002.jpg");
+  height: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
