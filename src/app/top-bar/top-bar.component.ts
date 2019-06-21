@@ -9,19 +9,37 @@ import { CartService } from '../cart.service';
   styleUrls: ['./top-bar.component.css']
 })
 export class TopBarComponent {
+  shopOwnerStatBlock;
+  statBlockList;
   
   constructor(
     private cartService: CartService) {
-
+      this.randomStatBlock();
     }
 
   initiateOpenStore = function() {
     //window.alert("initiateOpenStore()");
+    this.randomStatBlock();
     this.cartService.topBarCall();
   }
 
-  ngOnInit() {
+  randomStatBlock() {
+    this.statBlockList = [
+      "https://www.dndbeyond.com/monsters/guard",
+      "https://www.dndbeyond.com/monsters/acolyte",
+      "https://www.dndbeyond.com/monsters/mage",
+      "https://www.dndbeyond.com/monsters/knight",
+      "https://www.dndbeyond.com/monsters/commoner",
+    ];
+    var random = Math.floor(Math.random() * this.statBlockList.length);
+    this.shopOwnerStatBlock = this.statBlockList[random];
+    console.log(this.shopOwnerStatBlock);
+  }
 
+
+
+  ngOnInit() {
+    this.randomStatBlock();
   }
 
 }
