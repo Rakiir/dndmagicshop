@@ -1,7 +1,8 @@
-
-<a [routerLink]="['/']">
-  <h1 style="color:rgb(24, 0, 186)">Magic Shop</h1>
+<a href="{{shopOwnerStatBlock}}" target="_blank" class="button fancy-button"><i class="material-icons iconOpenStore">error</i>
+  <font style="color:rgb(24, 0, 186)">Roll Initiative</font>
 </a>
+
+<!-- <button class="button fancy-button" (click)="randomStatBlock()"><i class="material-icons iconOpenStore">store</i><font style="color:rgb(24, 0, 186)">Roll Initiative</font></button> -->
 
 <div>
 <h2><b><font style="color:rgb(24, 0, 186)">&nbsp;Choose Spell Level</font></b></h2>
@@ -34,12 +35,3 @@
   </div>
 
   <button class="button fancy-button" (click)="initiateOpenStore()"><i class="material-icons iconOpenStore">store</i><font style="color:rgb(24, 0, 186)">Open Store</font></button>
-  
-
-<!--<a [routerLink]="['/cart']" class="button fancy-button"><i class="material-icons">add_circle</i>Shuffle Items</a>-->
-
-<!-- 
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
--->
